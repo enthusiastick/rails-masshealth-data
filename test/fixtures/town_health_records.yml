@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  town: MyString
+  total_pop_year_2005: 1
+  age_0_to_19_year_2005: 1
+  age_65_plus_year_2005: 1
+  per_capita_income_year_2000: 1
+  persons_living_below_twox_poverty_year_2000: 1
+  persons_living_below_twox_poverty_level_as_percent_year_2000: 1.5
+  adequacy_prenatal_care: 1.5
+  c_section_deliveries_2005_to_2008: 1.5
+  infant_deaths_2005_to_2008: 1
+  infant_mortality_rate_2005_to_2008: 1.5
+  low_birthweight_2005_to_2008: 1.5
+  publicly_financed_prenatal_care_2005_to_2008: 1.5
+  teen_births_2005_to_2008: 1.5
+
+two:
+  town: MyString
+  total_pop_year_2005: 1
+  age_0_to_19_year_2005: 1
+  age_65_plus_year_2005: 1
+  per_capita_income_year_2000: 1
+  persons_living_below_twox_poverty_year_2000: 1
+  persons_living_below_twox_poverty_level_as_percent_year_2000: 1.5
+  adequacy_prenatal_care: 1.5
+  c_section_deliveries_2005_to_2008: 1.5
+  infant_deaths_2005_to_2008: 1
+  infant_mortality_rate_2005_to_2008: 1.5
+  low_birthweight_2005_to_2008: 1.5
+  publicly_financed_prenatal_care_2005_to_2008: 1.5
+  teen_births_2005_to_2008: 1.5
