@@ -8,8 +8,6 @@
 
 require 'csv'
 
-
-
 def expurgate_integer(int)
   unless int == nil
     int.strip.delete('$').delete(',').to_i
@@ -22,7 +20,7 @@ def expurgate_float(flo)
   end
 end
 
-CSV.foreach(Rails.root.join('db/data/mass_health_data.csv'),headers:true) do |row|
+CSV.foreach(Rails.root.join('db/data/mass_health_data.csv'), headers:true) do |row|
   unless row['Geography'] == nil
     town = TownHealthRecords.new
     town.town = (row['Geography'])
@@ -43,4 +41,3 @@ CSV.foreach(Rails.root.join('db/data/mass_health_data.csv'),headers:true) do |ro
     town.save
   end
 end
-

@@ -13,10 +13,12 @@ class CreateTownHealthRecords < ActiveRecord::Migration
       t.integer :infant_deaths_2005_to_2008
       t.float :infant_mortality_rate_2005_to_2008
       t.float :low_birthweight_2005_to_2008
+      t.float :multiple_births_2005_to_2008
       t.float :publicly_financed_prenatal_care_2005_to_2008
       t.float :teen_births_2005_to_2008
 
       t.timestamps
     end
+    add_index :town_health_records, :town, unique: true
   end
 end
