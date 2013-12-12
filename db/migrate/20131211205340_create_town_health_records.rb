@@ -19,6 +19,5 @@ class CreateTownHealthRecords < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :town_health_records, :town, unique: true
   end
 end

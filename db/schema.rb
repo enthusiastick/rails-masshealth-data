@@ -36,6 +36,4 @@ ActiveRecord::Schema.define(version: 20131211205340) do
     t.datetime "updated_at"
   end
 
-  add_index "town_health_records", ["town"], name: "index_town_health_records_on_town", unique: true, using: :btree
-
 end
